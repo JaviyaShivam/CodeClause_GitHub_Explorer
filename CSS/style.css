@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Josefin+Sans&family=Nova+Oval&family=Suwannaphum&display=swap');
+/* font-family: 'DynaPuff', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Nova Oval', cursive; 
+font-family: 'Suwannaphum', serif; */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #6e6e9f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#upper_tag{
+    margin-top: 40px;
+}
+#search{
+    border: 2px solid black;
+    font-size: 15px;
+    padding: 7px;
+    background-color: #495050;
+    margin: 100px 10px 10px;
+    border-radius: 10px;
+    width: 800px;
+}
+h2{
+    font-family: 'DynaPuff', cursive;
+}
+li{
+    list-style-type: none;
+    margin: 5px 20px 5px 0px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    max-width: 800px;
+    background-color: #4c2885;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.avatar{
+    border-radius: 50%;
+    border: 3px solid #2a2a72;
+    margin: 30px;
+    height: 150px;
+    width: 150px;
+}
+p{
+    font-family: 'Suwannaphum', serif;
+}
+.info{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.user-info{
+    margin: 30px 10px 10px 10px;
+}
+.repo{
+    margin: 5px 15px 5px 0px;
+    border-radius: 5px;
+    padding: 2px;
+    display: inline-block;
+}
+a:hover{
+    background-color: cadetblue;
+}
+a{
+    font-family: 'Nova Oval', cursive;
+    text-decoration: none;
+    background-color: #8ec5c5;
+    color: black;
+}
